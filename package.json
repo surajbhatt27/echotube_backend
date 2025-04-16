@@ -1,0 +1,19 @@
+{
+  "name": "echotube",
+  "version": "1.0.0",
+  "description": "A RESTful backend for a video-sharing and microblogging platform inspired by YouTube and Twitter. Created for backend development practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "javaScript",
+    "backend"
+  ],
+  "author": "Suraj Bhatt",
+  "license": "ISC"
+}
