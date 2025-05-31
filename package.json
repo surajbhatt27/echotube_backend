@@ -1,35 +1,35 @@
 {
-  "name": "echotube",
-  "version": "1.0.0",
-  "description": "A RESTful backend for a video-sharing and microblogging platform inspired by YouTube and Twitter. Created for backend development practice.",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [
-    "javaScript",
-    "backend"
-  ],
-  "author": "Suraj Bhatt",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.9",
-    "prettier": "^3.5.3"
-  },
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cloudinary": "^2.6.0",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.2",
-    "multer": "^1.4.5-lts.2"
-  }
+    "name": "echotube",
+    "version": "1.0.0",
+    "description": "A RESTful backend for a video-sharing and microblogging platform inspired by YouTube and Twitter. Created for backend development practice.",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "javaScript",
+        "backend"
+    ],
+    "author": "Suraj Bhatt",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.9",
+        "prettier": "^3.5.3"
+    },
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cloudinary": "^2.6.0",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.14.1",
+        "multer": "^1.4.5-lts.2"
+    }
 }

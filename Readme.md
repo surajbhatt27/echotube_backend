@@ -17,9 +17,9 @@ A backend API for a EchoTube-a video-sharing platform with social features like 
 
 ## 🛠 Tech Stack
 
-- **Node.js** 
-- **Express.js**  
-- **MongoDB** with Mongoose  
-- **JWT** for authentication  
+- **Node.js**
+- **Express.js**
+- **MongoDB** with Mongoose
+- **JWT** for authentication
 
 ---

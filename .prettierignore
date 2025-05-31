@@ -1,6 +1,49 @@
-/.vscode
-/node_modules
-./dist
-*.env
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/           # for Next.js
+.vercel/         # Vercel build output
+
+# Public/static assets
+public/
+static/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Environment variables
 .env
 .env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled files
+*.min.js
+*.min.css
+*.bundle.js
+*.map
+
+# Temporary files
+tmp/
+temp/
+
+# Docker (if using)
+docker/

@@ -4,24 +4,24 @@ const likeSchema = new Schema(
     {
         video: {
             type: Schema.Types.ObjectId,
-            ref: "Video"
+            ref: "Video",
         },
         Comment: {
             type: Schema.Types.ObjectId,
-            ref: "Comment"
+            ref: "Comment",
         },
         tweet: {
             type: Schema.Types.ObjectId,
-            ref: "Tweet"
+            ref: "Tweet",
         },
         likedBy: {
             type: Schema.Types.ObjectId,
-            ref: "User"
+            ref: "User",
         },
     },
     {
-        timestamps: true
+        timestamps: true,
     }
-)
+);
 
-export const Like = mongoose.model("Like", likeSchema)
+export const Like = mongoose.model("Like", likeSchema);
